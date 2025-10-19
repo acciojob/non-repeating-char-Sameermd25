@@ -15,7 +15,7 @@ function firstNonRepeatedChar(str) {
 			return str[i];
 		}
 	}
-	return "null";
+	return null;
 }
 firstNonRepeatedChar("aabbcdd");
 const input = prompt("Enter a string");
